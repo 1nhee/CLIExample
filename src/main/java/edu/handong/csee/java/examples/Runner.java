@@ -146,7 +146,7 @@ public class Runner {
 		options.addOption(Option.builder("s").longOpt("size")
 				.desc("Display the size of files")
 				.argName("size")
-				.build());
+				.build()); 
 				
 		// add options by using OptionBuilder
 		options.addOption(Option.builder("h").longOpt("help")
